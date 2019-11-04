@@ -1,4 +1,4 @@
-﻿☺using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Text;
 
@@ -6,7 +6,7 @@ namespace HelloWorld.Model
 {
     class Person
     {   //variabili di classe
-        public string nome;
+        public string name;
         public string cognome;
         public int età;
         public string sesso;
@@ -14,7 +14,7 @@ namespace HelloWorld.Model
         public double peso;
         public Person(string nome, string cognome)
         {
-            this.nome = nome;
+            this.name = nome;
             this.cognome = cognome;
             this.sesso = "sconosciuto";
         }
@@ -30,9 +30,19 @@ namespace HelloWorld.Model
 
         public string Anagrafica()
         {
-            string anagrafica = this.nome + this.cognome;
-            return "anagrafica";
+            string anagrafica = this.name + this.cognome;
+            return anagrafica;
         }
+
+        public Person(string nome, string cognome, int altezza, double peso)
+        {
+            this.name = nome;
+            this.cognome = cognome;
+            this.altezza = altezza;
+            this.peso = peso;
+        }
+
+
 
 
     }

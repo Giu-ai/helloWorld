@@ -24,7 +24,7 @@ namespace HelloWorld
             i = 5;
 
             Console.WriteLine(i);
-            Console.WriteLine(j);
+            Console.WriteLine(j); // j non cambia poichè il suo valore è salvato nello stack
 
 
             // REFERENCE TYPE
@@ -47,7 +47,7 @@ namespace HelloWorld
             Console.WriteLine(luca.Anagrafica());
 
             Person giovanni = luca;
-            giovanni.nome = "Giovanni"; //puntano alla stessa zona di memoria quindi anche luca diventa "giovanni"
+            giovanni.name = "Giovanni"; //puntano alla stessa zona di memoria quindi cambiando il name, anche luca diventa "giovanni"
 
             Console.WriteLine(luca.Anagrafica());
             Console.WriteLine(giovanni.Anagrafica()); 
