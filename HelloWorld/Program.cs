@@ -42,7 +42,7 @@ namespace HelloWorld
             object oggetto;
 
             Person luca= new Person("Luca", "Lippi");
-            luca.età = 18; //pubblic, quindi posso cambiare le var
+            luca.age = 18; //pubblic, quindi posso cambiare le var
 
             Console.WriteLine(luca.Anagrafica());
 
@@ -50,7 +50,13 @@ namespace HelloWorld
             giovanni.name = "Giovanni"; //puntano alla stessa zona di memoria quindi cambiando il name, anche luca diventa "giovanni"
 
             Console.WriteLine(luca.Anagrafica());
-            Console.WriteLine(giovanni.Anagrafica()); 
+            Console.WriteLine(giovanni.Anagrafica());
+
+            luca.peso = 60;
+            luca.altezza = 170;
+
+
+            Console.WriteLine(luca.Anagrafica());
 
 
 

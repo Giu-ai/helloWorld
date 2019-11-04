@@ -8,20 +8,25 @@
     ".NETCoreApp,Version=v3.0": []
   },
   "packageFolders": {
-    "C:\\Users\\user\\.nuget\\packages\\": {}
+    "C:\\Users\\giugg\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\user\\Desktop\\dotnet\\github\\helloWorld\\HelloWorld\\HelloWorld.csproj",
+      "projectUniqueName": "C:\\Users\\giugg\\Desktop\\CORSO\\helloWorld\\HelloWorld\\HelloWorld.csproj",
       "projectName": "HelloWorld",
-      "projectPath": "C:\\Users\\user\\Desktop\\dotnet\\github\\helloWorld\\HelloWorld\\HelloWorld.csproj",
-      "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\user\\Desktop\\dotnet\\github\\helloWorld\\HelloWorld\\obj\\",
+      "projectPath": "C:\\Users\\giugg\\Desktop\\CORSO\\helloWorld\\HelloWorld\\HelloWorld.csproj",
+      "packagesPath": "C:\\Users\\giugg\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\giugg\\Desktop\\CORSO\\helloWorld\\HelloWorld\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Microsoft\\Xamarin\\NuGet\\"
+      ],
       "configFilePaths": [
-        "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\giugg\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.0"
